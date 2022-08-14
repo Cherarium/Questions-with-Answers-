@@ -1,5 +1,6 @@
 // QUESTION 2: Function is intended to reverse the tail portion of a singly linked 
 // list starting with the ReversalNode. 
+
 // QUESTION 3: Find all the UNIQUE COMMON INTEGERS between two arrays. 
 // The passed in arrays may contain duplicate values, but the result must contain NO 
 // duplicates.The result should contain a list of unique integers that are contained in BOTH arrays.
@@ -7,7 +8,7 @@
 // Level1 = 3,4,1,2,3,5,6
 // Level2 = 4,6,8,2,3,4,9
 // Out = 2,3,4,6
-// QUESTION 4: Calculates the absolute minimum possible time that any 2 players in the passed in list could get to one another.
+
 
 
 // C++ implementation of above approaches.
@@ -175,4 +176,3 @@ cout<<endl<<endl;
 	printList(head1);
 	return 0;
 }
-
