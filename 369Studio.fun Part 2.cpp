@@ -105,7 +105,7 @@ void push(struct Node** head_ref, int new_data)
 		Node* rest = reverse(head->next);
 		head->next->next = head;
 
-		/* tricky step -- see the diagram */
+		/* tricky step -- see the diagram of progression */
 		head->next = NULL;
 
 		/* fix the head pointer */
